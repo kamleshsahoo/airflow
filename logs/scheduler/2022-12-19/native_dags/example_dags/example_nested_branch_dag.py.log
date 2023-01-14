@@ -1,0 +1,39 @@
+[2022-12-20T00:00:48.204+0100] {processor.py:153} INFO - Started process (PID=10900) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:00:48.205+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-12-20T00:00:48.205+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.205+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:00:48.226+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:00:48.321+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.321+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_nested_branch_dag
+[2022-12-20T00:00:48.340+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.340+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_nested_branch_dag
+[2022-12-20T00:00:48.352+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.352+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_nested_branch_dag
+[2022-12-20T00:00:48.353+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.353+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:48.364+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.364+0100] {dag.py:2697} INFO - Creating ORM DAG for example_nested_branch_dag
+[2022-12-20T00:00:48.373+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:48.373+0100] {dag.py:3423} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2022-12-20T00:00:48.394+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.193 seconds
+[2022-12-20T00:01:31.172+0100] {processor.py:153} INFO - Started process (PID=11032) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:01:31.182+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-12-20T00:01:31.183+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:31.183+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:01:31.219+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:01:31.241+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:31.241+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:31.254+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:31.254+0100] {dag.py:3423} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2022-12-20T00:01:31.272+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.104 seconds
+[2022-12-20T00:02:12.538+0100] {processor.py:153} INFO - Started process (PID=11085) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:12.547+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-12-20T00:02:12.549+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:12.549+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:12.588+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:12.608+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:12.608+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:12.622+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:12.622+0100] {dag.py:3423} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2022-12-20T00:02:12.639+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.105 seconds
+[2022-12-20T00:02:58.781+0100] {processor.py:153} INFO - Started process (PID=11205) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:58.791+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-12-20T00:02:58.793+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:58.792+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:58.828+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:02:58.849+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:58.848+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:58.862+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:58.862+0100] {dag.py:3423} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2022-12-20T00:02:58.880+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.107 seconds
+[2022-12-20T00:03:41.740+0100] {processor.py:153} INFO - Started process (PID=11260) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:03:41.750+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2022-12-20T00:03:41.751+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:41.751+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:03:41.790+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2022-12-20T00:03:41.811+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:41.811+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:41.825+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:41.825+0100] {dag.py:3423} INFO - Setting next_dagrun for example_nested_branch_dag to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2022-12-20T00:03:41.842+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.108 seconds

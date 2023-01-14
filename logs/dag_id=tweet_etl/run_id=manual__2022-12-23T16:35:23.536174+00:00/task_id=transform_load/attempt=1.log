@@ -1,0 +1,39 @@
+[2022-12-23T17:35:41.410+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-23T16:35:23.536174+00:00 [queued]>
+[2022-12-23T17:35:41.416+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-23T16:35:23.536174+00:00 [queued]>
+[2022-12-23T17:35:41.416+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-23T17:35:41.416+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-23T17:35:41.417+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-23T17:35:41.428+0100] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): transform_load> on 2022-12-23 16:35:23.536174+00:00
+[2022-12-23T17:35:41.430+0100] {standard_task_runner.py:55} INFO - Started process 18628 to run task
+[2022-12-23T17:35:41.432+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'tweet_etl', 'transform_load', 'manual__2022-12-23T16:35:23.536174+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpaam7lfv7']
+[2022-12-23T17:35:41.433+0100] {standard_task_runner.py:83} INFO - Job 24: Subtask transform_load
+[2022-12-23T17:35:41.463+0100] {task_command.py:389} INFO - Running <TaskInstance: tweet_etl.transform_load manual__2022-12-23T16:35:23.536174+00:00 [running]> on host kamlesh-pc
+[2022-12-23T17:35:41.507+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=tweet_etl
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-23T16:35:23.536174+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-23T16:35:23.536174+00:00
+[2022-12-23T17:35:46.923+0100] {logging_mixin.py:137} WARNING - Some weights of the model checkpoint at cardiffnlp/twitter-roberta-base-sentiment-latest were not used when initializing RobertaForSequenceClassification: ['roberta.pooler.dense.bias', 'roberta.pooler.dense.weight']
+- This IS expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing RobertaForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[2022-12-23T17:35:57.603+0100] {base.py:73} INFO - Using connection ID 'mysql_conn' for task execution.
+[2022-12-23T17:35:57.604+0100] {sql.py:364} INFO - Running statement: CREATE TABLE IF NOT EXISTS polar_tweets (
+                id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                tweet_id BIGINT,
+                created_at DATETIME,
+                tweet TEXT,
+                polarity TEXT,
+                retweet_cnt INT,
+                like_cnt INT,
+                username VARCHAR(50),
+                verified BOOLEAN
+                );, parameters: None
+[2022-12-23T17:35:57.657+0100] {sql.py:373} INFO - Rows affected: 0
+[2022-12-23T17:35:57.804+0100] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-23T17:35:57.811+0100] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=tweet_etl, task_id=transform_load, execution_date=20221223T163523, start_date=20221223T163541, end_date=20221223T163557
+[2022-12-23T17:35:57.904+0100] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-23T17:35:57.924+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

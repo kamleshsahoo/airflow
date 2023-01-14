@@ -1,0 +1,46 @@
+[2022-12-19T23:56:18.427+0100] {processor.py:153} INFO - Started process (PID=9928) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-19T23:56:18.429+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-19T23:56:18.431+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.431+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-19T23:56:18.453+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-19T23:56:18.543+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.543+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2022-12-19T23:56:18.553+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.553+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2022-12-19T23:56:18.563+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.563+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2022-12-19T23:56:18.564+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.564+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-19T23:56:18.593+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.593+0100] {dag.py:2697} INFO - Creating ORM DAG for tutorial_dag
+[2022-12-19T23:56:18.604+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:18.604+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-19T23:56:18.623+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.204 seconds
+[2022-12-20T00:00:36.609+0100] {processor.py:153} INFO - Started process (PID=10822) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:00:36.617+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-20T00:00:36.618+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:36.618+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:00:36.633+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:00:36.656+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:36.656+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:36.669+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:36.669+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-20T00:00:36.687+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.083 seconds
+[2022-12-20T00:01:18.605+0100] {processor.py:153} INFO - Started process (PID=11015) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:18.613+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-20T00:01:18.613+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:18.613+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:18.625+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:18.648+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:18.648+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:18.661+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:18.661+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-20T00:01:18.679+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.077 seconds
+[2022-12-20T00:01:56.584+0100] {processor.py:153} INFO - Started process (PID=11059) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:56.595+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-20T00:01:56.596+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:56.596+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:56.622+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:01:56.647+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:56.647+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:56.658+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:56.658+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-20T00:01:56.683+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.106 seconds
+[2022-12-20T00:02:35.332+0100] {processor.py:153} INFO - Started process (PID=11178) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:02:35.342+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-20T00:02:35.344+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:35.344+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:02:35.370+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:02:35.396+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:35.396+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:35.408+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:35.408+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-20T00:02:35.425+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.100 seconds
+[2022-12-20T00:03:17.513+0100] {processor.py:153} INFO - Started process (PID=11225) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:03:17.523+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2022-12-20T00:03:17.525+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:17.525+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:03:17.550+0100] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2022-12-20T00:03:17.574+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:17.574+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:17.587+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:17.587+0100] {dag.py:3423} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2022-12-20T00:03:17.605+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.100 seconds

@@ -1,0 +1,36 @@
+[2022-12-20T00:50:37.051+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:50:32.098902+00:00 [queued]>
+[2022-12-20T00:50:37.057+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:50:32.098902+00:00 [queued]>
+[2022-12-20T00:50:37.057+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T00:50:37.057+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T00:50:37.057+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T00:50:37.069+0100] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): transform_load> on 2022-12-19 23:50:32.098902+00:00
+[2022-12-20T00:50:37.071+0100] {standard_task_runner.py:55} INFO - Started process 19865 to run task
+[2022-12-20T00:50:37.073+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'tweet_etl', 'transform_load', 'manual__2022-12-19T23:50:32.098902+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpma1rrtwe']
+[2022-12-20T00:50:37.074+0100] {standard_task_runner.py:83} INFO - Job 12: Subtask transform_load
+[2022-12-20T00:50:37.132+0100] {task_command.py:389} INFO - Running <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:50:32.098902+00:00 [running]> on host kamlesh-pc
+[2022-12-20T00:50:37.171+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=tweet_etl
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-19T23:50:32.098902+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-19T23:50:32.098902+00:00
+[2022-12-20T00:50:37.525+0100] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kamlesh/airflow/dags/demo.py", line 104, in transform_load
+    df['polarity'] = [sentiment_classifier(tweet) for tweet in df['tweet']]
+  File "/home/kamlesh/airflow/dags/demo.py", line 104, in <listcomp>
+    df['polarity'] = [sentiment_classifier(tweet) for tweet in df['tweet']]
+TypeError: sentiment_classifier.__init__() takes 1 positional argument but 2 were given
+[2022-12-20T00:50:37.530+0100] {taskinstance.py:1322} INFO - Marking task as FAILED. dag_id=tweet_etl, task_id=transform_load, execution_date=20221219T235032, start_date=20221219T235037, end_date=20221219T235037
+[2022-12-20T00:50:37.542+0100] {standard_task_runner.py:100} ERROR - Failed to execute job 12 for task transform_load (sentiment_classifier.__init__() takes 1 positional argument but 2 were given; 19865)
+[2022-12-20T00:50:37.567+0100] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-20T00:50:37.623+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

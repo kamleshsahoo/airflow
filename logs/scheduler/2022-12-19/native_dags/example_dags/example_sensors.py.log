@@ -1,0 +1,46 @@
+[2022-12-19T23:56:19.791+0100] {processor.py:153} INFO - Started process (PID=9930) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-19T23:56:19.793+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-19T23:56:19.795+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.795+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-19T23:56:19.822+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-19T23:56:19.914+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.914+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2022-12-19T23:56:19.931+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.930+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2022-12-19T23:56:19.951+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.951+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2022-12-19T23:56:19.952+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.951+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-19T23:56:19.977+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.977+0100] {dag.py:2697} INFO - Creating ORM DAG for example_sensors
+[2022-12-19T23:56:19.988+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:19.987+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-19T23:56:20.007+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.224 seconds
+[2022-12-20T00:00:37.762+0100] {processor.py:153} INFO - Started process (PID=10830) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:00:37.773+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-20T00:00:37.774+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:37.774+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:00:37.806+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:00:37.837+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:37.837+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:37.852+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:37.852+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-20T00:00:37.872+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2022-12-20T00:01:19.754+0100] {processor.py:153} INFO - Started process (PID=11016) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:19.763+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-20T00:01:19.764+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:19.764+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:19.780+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:19.806+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:19.806+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:19.821+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:19.821+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-20T00:01:19.839+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.089 seconds
+[2022-12-20T00:01:57.862+0100] {processor.py:153} INFO - Started process (PID=11060) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:57.873+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-20T00:01:57.874+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:57.874+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:57.906+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:01:57.932+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:57.932+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:57.944+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:57.944+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-20T00:01:57.971+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.116 seconds
+[2022-12-20T00:02:43.182+0100] {processor.py:153} INFO - Started process (PID=11185) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:02:43.184+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-20T00:02:43.185+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:43.185+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:02:43.216+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:02:43.240+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:43.240+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:43.253+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:43.253+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-20T00:02:43.271+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.094 seconds
+[2022-12-20T00:03:26.340+0100] {processor.py:153} INFO - Started process (PID=11237) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:03:26.350+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2022-12-20T00:03:26.352+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:26.351+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:03:26.383+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2022-12-20T00:03:26.406+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:26.406+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:26.419+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:26.419+0100] {dag.py:3423} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2022-12-20T00:03:26.437+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.104 seconds

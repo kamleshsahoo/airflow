@@ -1,0 +1,39 @@
+[2022-12-20T00:00:50.970+0100] {processor.py:153} INFO - Started process (PID=10904) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:00:50.971+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-20T00:00:50.972+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:50.972+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:00:50.997+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:00:51.088+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.087+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_xcom
+[2022-12-20T00:00:51.097+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.097+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_xcom
+[2022-12-20T00:00:51.105+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.105+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_xcom
+[2022-12-20T00:00:51.106+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.106+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:51.112+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.112+0100] {dag.py:2697} INFO - Creating ORM DAG for example_xcom
+[2022-12-20T00:00:51.118+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:51.118+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-20T00:00:51.145+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.179 seconds
+[2022-12-20T00:01:33.083+0100] {processor.py:153} INFO - Started process (PID=11035) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:01:33.093+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-20T00:01:33.094+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:33.094+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:01:33.131+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:01:33.154+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:33.154+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:33.165+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:33.165+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-20T00:01:33.183+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.108 seconds
+[2022-12-20T00:02:16.594+0100] {processor.py:153} INFO - Started process (PID=11099) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:02:16.602+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-20T00:02:16.603+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:16.603+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:02:16.627+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:02:16.649+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:16.649+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:16.663+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:16.663+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-20T00:02:16.685+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.094 seconds
+[2022-12-20T00:03:01.517+0100] {processor.py:153} INFO - Started process (PID=11208) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:01.527+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-20T00:03:01.529+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:01.528+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:01.562+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:01.583+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:01.583+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:01.596+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:01.596+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-20T00:03:01.613+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.104 seconds
+[2022-12-20T00:03:44.315+0100] {processor.py:153} INFO - Started process (PID=11275) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:44.323+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2022-12-20T00:03:44.324+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:44.323+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:44.342+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2022-12-20T00:03:44.363+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:44.363+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:44.375+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:44.375+0100] {dag.py:3423} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2022-12-20T00:03:44.399+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.086 seconds

@@ -1,0 +1,46 @@
+[2022-12-19T23:56:26.423+0100] {processor.py:153} INFO - Started process (PID=9937) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-19T23:56:26.425+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-19T23:56:26.426+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.426+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-19T23:56:26.453+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-19T23:56:26.544+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.543+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2022-12-19T23:56:26.557+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.557+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2022-12-19T23:56:26.568+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.567+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2022-12-19T23:56:26.569+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.568+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-19T23:56:26.587+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.587+0100] {dag.py:2697} INFO - Creating ORM DAG for example_trigger_target_dag
+[2022-12-19T23:56:26.596+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:26.596+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-19T23:56:26.616+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.201 seconds
+[2022-12-20T00:00:45.345+0100] {processor.py:153} INFO - Started process (PID=10867) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:00:45.354+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-20T00:00:45.355+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:45.355+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:00:45.382+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:00:45.404+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:45.404+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:45.416+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:45.416+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-20T00:00:45.434+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.092 seconds
+[2022-12-20T00:01:27.762+0100] {processor.py:153} INFO - Started process (PID=11029) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:01:27.771+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-20T00:01:27.772+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:27.772+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:01:27.801+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:01:27.826+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:27.826+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:27.839+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:27.839+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-20T00:01:27.856+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.097 seconds
+[2022-12-20T00:02:09.847+0100] {processor.py:153} INFO - Started process (PID=11081) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:09.855+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-20T00:02:09.856+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:09.856+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:09.876+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:09.898+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:09.898+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:09.910+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:09.910+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-20T00:02:09.927+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.082 seconds
+[2022-12-20T00:02:50.617+0100] {processor.py:153} INFO - Started process (PID=11193) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:50.626+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-20T00:02:50.627+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:50.627+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:50.664+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:02:50.686+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:50.686+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:50.698+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:50.698+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-20T00:02:50.729+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.117 seconds
+[2022-12-20T00:03:34.068+0100] {processor.py:153} INFO - Started process (PID=11246) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:03:34.078+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2022-12-20T00:03:34.080+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:34.079+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:03:34.114+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2022-12-20T00:03:34.135+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:34.135+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:34.148+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:34.147+0100] {dag.py:3423} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2022-12-20T00:03:34.165+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.105 seconds

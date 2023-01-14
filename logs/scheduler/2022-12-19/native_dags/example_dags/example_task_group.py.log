@@ -1,0 +1,46 @@
+[2022-12-19T23:56:25.046+0100] {processor.py:153} INFO - Started process (PID=9935) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-19T23:56:25.049+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-19T23:56:25.050+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.050+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-19T23:56:25.070+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-19T23:56:25.167+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.167+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_task_group
+[2022-12-19T23:56:25.181+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.181+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:example_task_group
+[2022-12-19T23:56:25.191+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.191+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_task_group
+[2022-12-19T23:56:25.191+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.191+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-19T23:56:25.200+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.200+0100] {dag.py:2697} INFO - Creating ORM DAG for example_task_group
+[2022-12-19T23:56:25.207+0100] {logging_mixin.py:137} INFO - [2022-12-19T23:56:25.207+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T22:56:25.207129+00:00, run_after=2022-12-19T22:56:25.207129+00:00
+[2022-12-19T23:56:25.226+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.188 seconds
+[2022-12-20T00:00:43.073+0100] {processor.py:153} INFO - Started process (PID=10865) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:00:43.082+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-20T00:00:43.083+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:43.083+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:00:43.103+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:00:43.129+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:43.129+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:00:43.141+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:43.141+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T23:00:43.140865+00:00, run_after=2022-12-19T23:00:43.140865+00:00
+[2022-12-20T00:00:43.158+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2022-12-20T00:01:26.180+0100] {processor.py:153} INFO - Started process (PID=11027) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:01:26.190+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-20T00:01:26.192+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:26.191+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:01:26.220+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:01:26.245+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:26.245+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:01:26.257+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:26.257+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T23:01:26.257287+00:00, run_after=2022-12-19T23:01:26.257287+00:00
+[2022-12-20T00:01:26.281+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.109 seconds
+[2022-12-20T00:02:08.269+0100] {processor.py:153} INFO - Started process (PID=11079) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:08.279+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-20T00:02:08.281+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:08.281+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:08.307+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:08.332+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:08.332+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:08.346+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:08.346+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T23:02:08.345942+00:00, run_after=2022-12-19T23:02:08.345942+00:00
+[2022-12-20T00:02:08.365+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.105 seconds
+[2022-12-20T00:02:48.188+0100] {processor.py:153} INFO - Started process (PID=11190) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:48.197+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-20T00:02:48.197+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:48.197+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:48.211+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:02:48.235+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:48.235+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:02:48.247+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:48.247+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T23:02:48.247575+00:00, run_after=2022-12-19T23:02:48.247575+00:00
+[2022-12-20T00:02:48.265+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2022-12-20T00:03:31.899+0100] {processor.py:153} INFO - Started process (PID=11244) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:03:31.901+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2022-12-20T00:03:31.902+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:31.902+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:03:31.922+0100] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2022-12-20T00:03:31.946+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:31.946+0100] {dag.py:2676} INFO - Sync 1 DAGs
+[2022-12-20T00:03:31.960+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:31.960+0100] {dag.py:3423} INFO - Setting next_dagrun for example_task_group to 2022-12-18T23:03:31.960264+00:00, run_after=2022-12-19T23:03:31.960264+00:00
+[2022-12-20T00:03:31.980+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds

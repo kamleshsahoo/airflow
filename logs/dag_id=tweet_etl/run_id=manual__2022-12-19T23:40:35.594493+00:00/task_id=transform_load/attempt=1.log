@@ -1,0 +1,84 @@
+[2022-12-20T00:40:40.194+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:40:35.594493+00:00 [queued]>
+[2022-12-20T00:40:40.201+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:40:35.594493+00:00 [queued]>
+[2022-12-20T00:40:40.201+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T00:40:40.201+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-20T00:40:40.201+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-20T00:40:40.213+0100] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): transform_load> on 2022-12-19 23:40:35.594493+00:00
+[2022-12-20T00:40:40.214+0100] {standard_task_runner.py:55} INFO - Started process 18617 to run task
+[2022-12-20T00:40:40.217+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'tweet_etl', 'transform_load', 'manual__2022-12-19T23:40:35.594493+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpvckhflpb']
+[2022-12-20T00:40:40.217+0100] {standard_task_runner.py:83} INFO - Job 10: Subtask transform_load
+[2022-12-20T00:40:40.263+0100] {task_command.py:389} INFO - Running <TaskInstance: tweet_etl.transform_load manual__2022-12-19T23:40:35.594493+00:00 [running]> on host kamlesh-pc
+[2022-12-20T00:40:40.301+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=tweet_etl
+AIRFLOW_CTX_TASK_ID=transform_load
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-19T23:40:35.594493+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-19T23:40:35.594493+00:00
+[2022-12-20T00:40:40.645+0100] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_date': '2022-12-19'}', INTERVAL 1 DAY)' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/decorators/base.py", line 217, in execute
+    return_value = super().execute(context)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/kamlesh/airflow/dags/demo.py", line 102, in transform_load
+    df = pd.read_sql("SELECT * FROM raw_tweets WHERE created_at > DATE_SUB('{}', INTERVAL 1 DAY);".format(current_date), con=engine)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/pandas/io/sql.py", line 590, in read_sql
+    return pandas_sql.read_query(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/pandas/io/sql.py", line 1560, in read_query
+    result = self.execute(*args)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/pandas/io/sql.py", line 1405, in execute
+    return self.connectable.execution_options().execute(*args, **kwargs)
+  File "<string>", line 2, in execute
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/util/deprecations.py", line 402, in warned
+    return fn(*args, **kwargs)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3257, in execute
+    return connection.execute(statement, *multiparams, **params)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 210, in raise_
+    raise exception
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/MySQLdb/connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+sqlalchemy.exc.ProgrammingError: (MySQLdb.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_date': '2022-12-19'}', INTERVAL 1 DAY)' at line 1")
+[SQL: SELECT * FROM raw_tweets WHERE created_at > DATE_SUB('{'current_date': '2022-12-19'}', INTERVAL 1 DAY);]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2022-12-20T00:40:40.662+0100] {taskinstance.py:1322} INFO - Marking task as FAILED. dag_id=tweet_etl, task_id=transform_load, execution_date=20221219T234035, start_date=20221219T234040, end_date=20221219T234040
+[2022-12-20T00:40:40.675+0100] {standard_task_runner.py:100} ERROR - Failed to execute job 10 for task transform_load ((MySQLdb.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'current_date': '2022-12-19'}', INTERVAL 1 DAY)' at line 1")
+[SQL: SELECT * FROM raw_tweets WHERE created_at > DATE_SUB('{'current_date': '2022-12-19'}', INTERVAL 1 DAY);]
+(Background on this error at: https://sqlalche.me/e/14/f405); 18617)
+[2022-12-20T00:40:40.709+0100] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-20T00:40:40.750+0100] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check

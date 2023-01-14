@@ -1,0 +1,25 @@
+[2022-12-20T00:00:54.595+0100] {processor.py:153} INFO - Started process (PID=10910) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:00:54.596+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-20T00:00:54.597+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:00:54.597+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:00:54.600+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:00:54.608+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2022-12-20T00:01:36.630+0100] {processor.py:153} INFO - Started process (PID=11039) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:01:36.639+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-20T00:01:36.640+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:01:36.640+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:01:36.645+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:01:36.655+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.028 seconds
+[2022-12-20T00:02:20.048+0100] {processor.py:153} INFO - Started process (PID=11165) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:02:20.057+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-20T00:02:20.058+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:02:20.058+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:02:20.064+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:02:20.075+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.031 seconds
+[2022-12-20T00:03:04.671+0100] {processor.py:153} INFO - Started process (PID=11211) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:04.681+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-20T00:03:04.681+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:04.681+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:04.686+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:04.696+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.030 seconds
+[2022-12-20T00:03:47.890+0100] {processor.py:153} INFO - Started process (PID=11278) to work on /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:47.900+0100] {processor.py:743} INFO - Processing file /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-12-20T00:03:47.901+0100] {logging_mixin.py:137} INFO - [2022-12-20T00:03:47.901+0100] {dagbag.py:538} INFO - Filling up the DagBag from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:47.910+0100] {processor.py:755} WARNING - No viable dags retrieved from /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-12-20T00:03:47.930+0100] {processor.py:175} INFO - Processing /home/kamlesh/pyenvs/data-engg/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.041 seconds

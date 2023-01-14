@@ -1,0 +1,36 @@
+[2022-12-23T16:50:21.798+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.extract manual__2022-12-23T15:50:19.945937+00:00 [queued]>
+[2022-12-23T16:50:21.804+0100] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: tweet_etl.extract manual__2022-12-23T15:50:19.945937+00:00 [queued]>
+[2022-12-23T16:50:21.804+0100] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-23T16:50:21.804+0100] {taskinstance.py:1284} INFO - Starting attempt 1 of 1
+[2022-12-23T16:50:21.804+0100] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-23T16:50:21.816+0100] {taskinstance.py:1304} INFO - Executing <Task(_PythonDecoratedOperator): extract> on 2022-12-23 15:50:19.945937+00:00
+[2022-12-23T16:50:21.818+0100] {standard_task_runner.py:55} INFO - Started process 12404 to run task
+[2022-12-23T16:50:21.820+0100] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'tweet_etl', 'extract', 'manual__2022-12-23T15:50:19.945937+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/demo.py', '--cfg-path', '/tmp/tmpv6xve3pk']
+[2022-12-23T16:50:21.821+0100] {standard_task_runner.py:83} INFO - Job 21: Subtask extract
+[2022-12-23T16:50:21.850+0100] {task_command.py:389} INFO - Running <TaskInstance: tweet_etl.extract manual__2022-12-23T15:50:19.945937+00:00 [running]> on host kamlesh-pc
+[2022-12-23T16:50:21.885+0100] {taskinstance.py:1511} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=tweet_etl
+AIRFLOW_CTX_TASK_ID=extract
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-23T15:50:19.945937+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-23T15:50:19.945937+00:00
+[2022-12-23T16:50:22.225+0100] {base.py:73} INFO - Using connection ID 'mysql_conn' for task execution.
+[2022-12-23T16:50:22.227+0100] {sql.py:364} INFO - Running statement: CREATE TABLE IF NOT EXISTS raw_tweets (
+                id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+                tweet_id BIGINT,
+                created_at DATETIME,
+                tweet TEXT,
+                lang VARCHAR(15),
+                retweet_cnt INT,
+                like_cnt INT,
+                username VARCHAR(50),
+                verified BOOLEAN
+                );, parameters: None
+[2022-12-23T16:50:22.240+0100] {sql.py:373} INFO - Rows affected: 0
+[2022-12-23T16:50:22.241+0100] {python.py:177} INFO - Done. Returned value was: {'current_date': '2022-12-23'}
+[2022-12-23T16:50:22.261+0100] {taskinstance.py:1322} INFO - Marking task as SUCCESS. dag_id=tweet_etl, task_id=extract, execution_date=20221223T155019, start_date=20221223T155021, end_date=20221223T155022
+[2022-12-23T16:50:22.313+0100] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-23T16:50:22.363+0100] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check
